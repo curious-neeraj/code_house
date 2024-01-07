@@ -1,3 +1,6 @@
+// Time Complexity - O(n*logn)
+// Space Complexity - O(1) - no additional space apart from ans
+
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
