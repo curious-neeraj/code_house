@@ -1,3 +1,6 @@
+// Time Complexity - O(n)
+// Space Complexity - O(n)
+
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
