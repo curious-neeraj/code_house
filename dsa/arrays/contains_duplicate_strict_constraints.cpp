@@ -1,8 +1,9 @@
+// Time Complexity - O(nlogn)
+// Space Complexity - O(n)
+
 class Solution {
 public:
-    
-    // Time Complexity - O(nlogn)
-    // Space Complexity - O(n)
+
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int indexDiff, int valueDiff) {
         
         vector<pair<int,int>> vec;
