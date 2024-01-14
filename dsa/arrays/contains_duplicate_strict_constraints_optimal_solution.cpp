@@ -1,10 +1,11 @@
+// Bucket Based Solution
+// Time Complexity - O(n)
+// Space Compexity - O(n)
+
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int indexDiff, int valueDiff) {
 
-        // Bucket Based Solution
-        // Time Complexity - O(n)
-        // Space Compexity - O(n)
         unordered_map<int, int> mp;
         int len = nums.size();
 
