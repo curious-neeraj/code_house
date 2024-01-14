@@ -1,3 +1,6 @@
+// Time Complexity - O(n)
+// Space Complextiy - O(1)
+
 class Solution {
 public:
     bool isAnagram(string s, string t) {
