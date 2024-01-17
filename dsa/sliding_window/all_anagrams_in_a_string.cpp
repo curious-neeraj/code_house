@@ -1,14 +1,14 @@
+// Time Complexity - O(n)
+// Space Complexity - O(1)
+
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
 
         vector<int> ans;
-        vector<int> s_hash(26, 0), p_hash(26, 0);
+        vector<int> s_hash(26), p_hash(26);
         int s_len = s.size(), p_len = p.size();
         int left = 0, right = 0;
-
-        if(s_len < p_len)
-            return ans;
 
         for(auto character: p)
             p_hash[character - 'a']++;
