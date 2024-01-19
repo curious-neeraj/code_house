@@ -1,3 +1,6 @@
+// Time Complexity - O(9^(n*n))
+// Space Complexity - O(n*n)
+
 class Solution {
 private:
     bool row[9][9] = {false}, col[9][9] = {false}, grid[9][9] = {false};
