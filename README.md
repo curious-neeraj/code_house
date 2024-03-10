@@ -6,6 +6,7 @@ Currently, it makes sense to keep the following here -
 * DSA Solutions
     * Basic Data Structures Problems
     * Common Algo Questions
+    * Common Interview Questions
 
 * Puzzles
     * Mathematical Challenges
